@@ -8,20 +8,24 @@ In this course, we focused on the implemented features in **ECMAScript 6** and o
 
 * **JavaScript Basics & Best Practices** 
   * Primitives types vs objects and the introduction of primitive type **symbol** in ECMAScript 6. Operators, numbers including **Number.isNaN (ES6)**, the math library, falsy and truthy values, logical operators, strings and string methods (**new ES6 string methods such as includes, endsWith, startWith, and repeat**), character access, concatenation, and explicit type conversion. Best practices such as using strict mode, the strict equality operator, declaring variables, and using semicolons. 
+  
 * **JavaScript Control Structures**
-  * The conditional operator, switch statements, how to avoid infinite loops, increment and decrement operators, shorthand operators, do ... while ... statements, for loops, and the introduction of the **let statement in ES6**.
+  * The conditional operator, switch statements, how to avoid infinite loops, increment and decrement operators, shorthand operators, do ... while ... statements, for loops, and the introduction of the **let statement** in ES6.
+  
 * **Functions**
-  * Default parameters for arguments introduced in ES6**, function definition expressions vs function declarations, **arrow functions in ES6)**, local vs global variables, nested functions and scope, declaring variables with a **let statement in ES6 allowing block scope**, variable and function **hoisting**, **recursion** and **closures**.
+  * **Default parameters** for arguments introduced in ES6, function definition expressions vs function declarations, **arrow functions** in ES6, local vs global variables, nested functions and scope, declaring variables with a **let statement** in ES6 allowing block scope, variable and function **hoisting**, **recursion** and **closures**.
+  
 * **Objects & Properties**
   * Methods, prototypes, creating objects with constructors, 'this', inheritance, and hasOwnProperty(). New in ES6: symbols as property keys, shorthand notation for object literals where you emit the key, computed property keys, destructuring of objects, and classes which doesn't actually introduce a new object-oriented inheritance model but instead is built on top of existing prototype based inheritance.
+  
 * **Arrays**
-  * Nested and sparse arrays, rearranging arrays using the reverse and sort methods, splice methods, push, pop, shift, unshift, forEach & map methods, for ... in & for ... loops, 
+  * Nested and sparse arrays, rearranging arrays using the reverse and sort methods, splice methods, push, pop, shift, unshift, forEach & map methods, for ... in & for ... loops, filter, join, slice, indexOf, lastIndexOf, concat, and **destructuring array assignments** in ES6.
 
 * **Sets and Maps**
 
 * **JavaScript in the Browser**
-* **Document Object Model**
 
+* **Document Object Model**
 
 * **Event Driven Programming**
 
@@ -31,8 +35,8 @@ In this course, we focused on the implemented features in **ECMAScript 6** and o
 
 * **Libraries & Frameworks**
 
-
 * **Client Server Architecture**
+
 * **Server-Side JavaScript**
 
 * **JSON** 
@@ -51,7 +55,6 @@ In this course, we focused on the implemented features in **ECMAScript 6** and o
 * **The Model-View-Controller Design Pattern**
 
 * **Web Application Design Considerations**
-
 
 * **Test Driven Development (TDD)** 
   * We used Selenium, a browser automation tool commonly used for automating the testing of web applications. 
