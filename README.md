@@ -22,20 +22,30 @@ In this course, we focused on the implemented features in **ECMAScript 6** and o
   * Nested and sparse arrays, rearranging arrays using the reverse and sort methods, splice methods, push, pop, shift, unshift, forEach & map methods, for ... in & for ... loops, filter, join, slice, indexOf, lastIndexOf, concat, and **destructuring array assignments** in ES6.
 
 * **Sets and Maps**
+  * We briefly covered this, but if I'm honest, I still don't fully understand it and it's on my TODO list to learn and create a project with so I can cement that understanding. 
 
 * **JavaScript in the Browser**
-
+  * When the browser encounters a <script> tag, it will be read or downloaded by the browser and the code executed by the JS interpreter, then the parsing and rendering of HTML continues until the end of document is reached. Therefore, if you place your <script> tag at the top of your document, use the *defer* attribute so the browser will defer execution until after the document has been loaded and parsed. If you have several, they run in the order they appear. Using the HTML5 *async* attribute makes the browser run the script as soon as possible but doesn't block document parsing while its being downloaded. If you have several async scripts, they run as they load so they might execute out of order. 
+  * The <script> tag can go in the <head> or at the end of the <body> elements, but if you place it in the <head>, make sure to use the *defer* or *async* attribute. 
+  
 * **Document Object Model**
+  * DOM tree containing document (entire document), element (HTML tags) and text nodes (content inside the tags) with parents, children, siblings, ancestors and descendants. Different browsers deal with white space inside HTML source inconsistently, this makes the node traversal of the DOM tree unpredictable. In contrast to node traversal which is unpredictable due to browser inconsistencies in handling white space inside HTML, element traversal ignores text nodes and can be used instead. 
+  * Still, different browsers use different layout engines, each of which implements the DOM standards to different levels of compliance. jQuery is a good solution to that problem. Still, most engines support the following features: getElementById, getElementsByTagName, getElementsByClassName. The following are used for element based traversal: firstElementChild, lastElementChild, previousElementSibling, nextElementSibling, and childElementCount.
 
 * **Event Driven Programming**
+  * The event type, event target, event handler or listener, registering event listeners using addEventListener, and event bubbling.
 
 * **Scripting Style**
+  * CSS: transition, transform, and animation.
 
 * **Namespace Considerations**
+  * Declaring variables outside of any function makes it become a property of the global object, and in client side JavaScript the global object is window. Not only is there a long list of properties already defined on window, but often web pages use JS code from several different sources and external files. Two solutions that add only one name to the global namespace are: use an object as a namespace or use a function as a temporary namespace. If we don't want to add a name to the global namespace, we can define an anonymous function, enclose our code in the parentheses and immediately invoke it.
 
 * **Libraries & Frameworks**
+  * jQuery: selecting elements with jQuery (by HTML tag, id, or class name), specifying multiple selectors, combining selectors, the jQuery object, getter and setter methods, methods such as text, html, val, addClass, removeClass, toggleClass, hide, show, and fadeOut. Event handling using click, on, and off and the document ready event. 
 
 * **Client Server Architecture**
+  * Finally we move from the client side to the server side, browser acting as the client, and the web server which responds with what is requested, such as HTML, JS, images, style sheets etc. Clients and servers communicate using the HTTP protocol, with the HTTP request including a POST or GET, URL being requested, optional headers and request body. The HTTP response includes a status code such as 200 'ok' or 404 'Not Found', headers passing extra info about the response such as content type, and the response body. The HTTP protocol relies on TCP/IP to send and receive sequences of bytes.
 
 * **Server-Side JavaScript**
 
@@ -56,8 +66,8 @@ In this course, we focused on the implemented features in **ECMAScript 6** and o
 
 * **Web Application Design Considerations**
 
-* **Test Driven Development (TDD)** 
-  * We used Selenium, a browser automation tool commonly used for automating the testing of web applications. 
+* **Testing**
+  * Test Driven Development (TDD): we used Selenium, a browser automation tool commonly used for automating the testing of web applications. 
 
 * **Mobile Platforms**
 
