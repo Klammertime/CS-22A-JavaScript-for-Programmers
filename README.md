@@ -25,8 +25,8 @@ In this course, we focused on the implemented features in **ECMAScript 6** and o
   * We briefly covered this, but if I'm honest, I still don't fully understand it and it's on my TODO list to learn and create a project with so I can cement that understanding. 
 
 * **JavaScript in the Browser**
-  * When the browser encounters a <script> tag, it will be read or downloaded by the browser and the code executed by the JS interpreter, then the parsing and rendering of HTML continues until the end of document is reached. Therefore, if you place your <script> tag at the top of your document, use the *defer* attribute so the browser will defer execution until after the document has been loaded and parsed. If you have several, they run in the order they appear. Using the HTML5 *async* attribute makes the browser run the script as soon as possible but doesn't block document parsing while its being downloaded. If you have several async scripts, they run as they load so they might execute out of order. 
-  * The <script> tag can go in the <head> or at the end of the <body> elements, but if you place it in the <head>, make sure to use the *defer* or *async* attribute. 
+  * When the browser encounters a `<script>` tag, it will be read or downloaded by the browser and the code executed by the JS interpreter, then the parsing and rendering of HTML continues until the end of document is reached. Therefore, if you place your `<script>` tag at the top of your document, use the *defer* attribute so the browser will defer execution until after the document has been loaded and parsed. If you have several, they run in the order they appear. Using the HTML5 *async* attribute makes the browser run the script as soon as possible but doesn't block document parsing while its being downloaded. If you have several async scripts, they run as they load so they might execute out of order. 
+  * The `<script>` tag can go in the `<head>` or at the end of the `<body>` elements, but if you place it in the `<head>`, make sure to use the *defer* or *async* attribute. 
   
 * **Document Object Model**
   * DOM tree containing document (entire document), element (HTML tags) and text nodes (content inside the tags) with parents, children, siblings, ancestors and descendants. Different browsers deal with white space inside HTML source inconsistently, this makes the node traversal of the DOM tree unpredictable. In contrast to node traversal which is unpredictable due to browser inconsistencies in handling white space inside HTML, element traversal ignores text nodes and can be used instead. 
@@ -55,16 +55,22 @@ In this course, we focused on the implemented features in **ECMAScript 6** and o
   * How to make a **deep copy** of an array or any object by converting it to JSON then parsing it back. 
 
 * **AJAX**
+  * Sending requests to the server, XMLHttpRequest object, handling asynchronous responses, retrieving the responses, combining with Node.js, AJAX with JSON, AJAX with jQuery.
 
 * **Promises**
-
+  * ES6 introduction of a new way to perform asynchronous programming with the promise - an object representing a still unknown result. 
+  
 * **Client-Side Storage**
+  * Web storage API including localStorage and sessionStorage objects.
 
 * **HTML5 APIs**
+  * History management(history.pushState, history.popstate, history.state), Geolocation API, web workers and web sockets.
 
 * **The Model-View-Controller Design Pattern**
+  * Introduction of an organizational paradigm with many advantages: easier maintenance, reuse, testing, complexity tamed, specialization and parallel development.
 
 * **Web Application Design Considerations**
+  * 3-tier architecture, the web stack and scalability.
 
 * **Testing**
   * Test Driven Development (TDD): we used Selenium, a browser automation tool commonly used for automating the testing of web applications. 
