@@ -48,6 +48,7 @@ In this course, we focused on the implemented features in **ECMAScript 6** and o
   * Finally we move from the client side to the server side, browser acting as the client, and the web server which responds with what is requested, such as HTML, JS, images, style sheets etc. Clients and servers communicate using the HTTP protocol, with the HTTP request including a POST or GET, URL being requested, optional headers and request body. The HTTP response includes a status code such as 200 'ok' or 404 'Not Found', headers passing extra info about the response such as content type, and the response body. The HTTP protocol relies on TCP/IP to send and receive sequences of bytes.
 
 * **Server-Side JavaScript**
+  * Node.js, Node asynchronous programming, user authentication, and database access using SQLite.
 
 * **JSON** 
   * How to perform **object serialization** using **JSON.stringify** to convert an object, array or a primitive value to a JSON formatted string, with the option of adding a **replacer** argument. 
