@@ -1,0 +1,9 @@
+CACHE MANIFEST
+# version 1.7
+CACHE:
+../scripts/draw.js
+../css/main.css
+
+NETWORK:
+
+FALLBACK:

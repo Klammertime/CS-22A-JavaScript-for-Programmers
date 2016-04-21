@@ -1,0 +1,380 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "Film Locations in San Francisco",
+      "attribution" : "San Francisco Film Commission",
+      "attributionLink" : "http://www.filmsf.org/",
+      "averageRating" : 0,
+      "category" : "Culture and Recreation",
+      "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "indexUpdatedAt" : 1442618399,
+      "licenseId" : "PDDL",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "publicationAppendEnabled" : false,
+      "publicationStage" : "unpublished",
+      "rowsUpdatedAt" : 1442611167,
+      "rowsUpdatedBy" : "qp74-qyt9",
+      "tableId" : 4354895,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 222152953,
+        "name" : "Title",
+        "dataTypeName" : "text",
+        "fieldName" : "title",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671601,
+        "width" : 160,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 222152954,
+        "name" : "Release Year",
+        "dataTypeName" : "number",
+        "fieldName" : "release_year",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1671602,
+        "width" : 244,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 222152955,
+        "name" : "Locations",
+        "dataTypeName" : "text",
+        "fieldName" : "locations",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671603,
+        "width" : 208,
+        "format" : { }
+      }, {
+        "id" : 222152957,
+        "name" : "Fun Facts",
+        "dataTypeName" : "text",
+        "fieldName" : "fun_facts",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671604,
+        "width" : 208,
+        "format" : { }
+      }, {
+        "id" : 222152958,
+        "name" : "Production Company",
+        "dataTypeName" : "text",
+        "fieldName" : "production_company",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671605,
+        "width" : 316,
+        "format" : { }
+      }, {
+        "id" : 222152960,
+        "name" : "Distributor",
+        "dataTypeName" : "text",
+        "fieldName" : "distributor",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671606,
+        "width" : 232,
+        "format" : { }
+      }, {
+        "id" : 222152961,
+        "name" : "Director",
+        "dataTypeName" : "text",
+        "fieldName" : "director",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671607,
+        "width" : 196,
+        "format" : { }
+      }, {
+        "id" : 222152963,
+        "name" : "Writer",
+        "dataTypeName" : "text",
+        "fieldName" : "writer",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671608,
+        "width" : 172,
+        "format" : { }
+      }, {
+        "id" : 222152964,
+        "name" : "Actor 1",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_1",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671609,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222152965,
+        "name" : "Actor 2",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_2",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671610,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222152967,
+        "name" : "Actor 3",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_3",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671611,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222153052,
+        "name" : "Smile Again, Jenny Lee",
+        "dataTypeName" : "number",
+        "fieldName" : "smile_again_jenny_lee",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31372273,
+        "width" : 100,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+            "Geographic unit" : "Other"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Weekly",
+            "Publishing frequency" : "Annually"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Film Commission"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "title"
+          } ],
+          "where" : {
+            "value" : "sense8",
+            "operator" : "EQUALS",
+            "columnFieldName" : "title",
+            "metadata" : {
+              "freeform" : true,
+              "unifiedVersion" : 2,
+              "tableColumnId" : {
+                "251717" : 1671601
+              },
+              "operator" : "EQUALS"
+            }
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 222152953,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "sense8"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "251717" : 1671601
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 222152953,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 222152953,
+        "flags" : [ "asc" ]
+      } ],
+      "tableAuthor" : {
+        "id" : "qp74-qyt9",
+        "displayName" : "Susannah Robbins",
+        "roleName" : "editor",
+        "screenName" : "Susannah Robbins",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 222152953,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "sense8"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "251717" : 1671601
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      },
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 770, "B2C00495-B0CF-467F-909F-CE5417B5E386", 770, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "18th Street between Guerrero and Valencia Streets", "Re-enactment of \"Dyke's on Bikes\" and \"Dyke March\"", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 771, "D47E2044-FCE5-4223-97CB-FFE54BD03460", 771, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Atlas Café, 3049 20th St.", "Dialogue scene inside the café", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 772, "3450B467-F6D8-44C5-B8CD-128D946191E3", 772, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Clairon Alley between Valencia & Mission St.", "Ladies discuss their relationship in the mural alley", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 773, "E5480299-130C-4035-8AD2-83C53EBD6482", 773, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Harrison & 20th", "Driving shots", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 774, "DC824184-315B-46F7-9D1C-40A75ED7B088", 774, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Folsom", "Driving shots", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 775, "9F179080-9E08-4418-87BA-D5073C659CCA", 775, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "16th St.", "Driving shots", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 776, "A9DABBDA-8A15-4F55-8750-8E02E72F6CE6", 776, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "S. Van Ness", "Driving shots", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 777, "CDCC4F15-7084-47EB-8FF5-E0BEC742FCE3", 777, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "22nd St.", "Driving shots", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 778, "928BA83A-D62B-4568-AC02-9BAE6AB9AC2E", 778, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Harrison", "Driving shots", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 779, "E79DE0B4-5374-4C50-A4D6-F7AC45BCB46E", 779, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "20th", "Driving shots", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 780, "DCDA08B6-2554-49D2-9AA9-0CE09AF6F324", 780, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Z Space Studios; 450 Florida St.", "Filming of the \"Fresh Meat\" Festival", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 781, "B896B117-951B-4127-AB47-F470490FF149", 781, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "375 Castro St. and 17th between Castro and Diamond St.", "Chase sequence on bicycles ends at gas station", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 782, "5E0040B3-8F4B-4D3A-BF75-40142DF38C19", 782, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Corbett St.", "Bicycle chase scene, actors dressed as fake officers present", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 783, "D1A27050-4134-49B1-8C2C-87F3083A6181", 783, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Romain St.", "Bicycle chase scene", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 784, "3FF435AA-A19F-4989-B689-0AD3D4587A0D", 784, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Market St. overpass", "Bicycle chase scene", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 785, "1F1724C2-7F2C-4782-AE68-917D5CE27994", 785, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Grand View Ave.", "Bicycle chase scene", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 786, "FD41DA44-4D9C-4F56-A9D8-84ED1DB7A319", 786, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Vallejo Street Garage; 766 Vallejo St.", "dialogue scene on top of a garage roof", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 787, "B827B925-5353-424A-99F2-89050FEF4B50", 787, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Laguna Honda Hospital; 375 Laguna Honda Blvd.", "dialogue scene", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 788, "8655B53B-4EC4-46E2-B7AF-BB8AAEA016CE", 788, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Irving St. at 9th Ave.", "continuous driving shots of a taxi going with the flow of existing traffic", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 789, "A27CEAAA-71E0-41E1-9392-A1F5543C39AA", 789, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Dolores Park, 20th St. between Church & Dolores St.", "group of friends have a heated argument, then flashback of pre-argument", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 790, "CC1DC855-0F55-4CD4-9B84-6008EA71C460", 790, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Palace of Fine Arts: 3306 Lyon St.", "Filming of \"Dyke's on Bikes\" and \"Dyke March\"", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 791, "A3B53271-89E5-445A-9BB0-9729B638A9CC", 791, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "Van Ness and 12th St.", "A couple reminisces on the moment they first fell in love", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+, [ 792, "3F4458C7-A99B-4E20-A578-F2CC212090A3", 792, 1442611151, "881420", 1442611151, "881420", null, "Sense8", "2015", "\"Metzger's Apt\" 151 Alice B. Toklas Pl.", "Overnight scene involving aggressive arguments between actors, spfx shoot out involved", "Unpronounceable Productions, LLC", "Netflix", "The Wachowskis", "The Wachowskis", "Jamie Clayton", null, null, null ]
+ ]
+}

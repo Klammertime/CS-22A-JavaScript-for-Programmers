@@ -1,0 +1,66 @@
+input {
+    font-size: 16px;
+    padding: 9px 27px;
+    color: #f7584c;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #5c1410;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.top-banner {
+    width: 100%;
+    padding: 20px;
+    vertical-align: middle;
+    background: #cfd6db;
+}
+
+.top-banner h1 {
+    font-size: 36px;
+    color: #f7584c;
+}
+
+h2 {
+    font-size: 24px;
+    color: #f7584c;
+}
+
+h4 {
+    font-size: 16px;
+    color: #5c1410;
+}
+
+p,
+h1,
+h2,
+h4 {
+    font-family: helvetica;
+}
+
+#map {
+    display: block;
+    height: 100%;
+    margin: 0 5%;
+}
+
+#mapDiv {
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
+}

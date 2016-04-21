@@ -1,0 +1,754 @@
+{
+    "meta": {
+        "view": {
+            "id": "zzzz-zzzz",
+            "name": "Film Locations in San Francisco",
+            "attribution": "San Francisco Film Commission",
+            "attributionLink": "http://www.filmsf.org/",
+            "averageRating": 0,
+            "category": "Culture and Recreation",
+            "description": "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+            "displayType": "table",
+            "downloadCount": 0,
+            "indexUpdatedAt": 1442618399,
+            "licenseId": "PDDL",
+            "newBackend": false,
+            "numberOfComments": 0,
+            "oid": 0,
+            "publicationAppendEnabled": false,
+            "publicationStage": "unpublished",
+            "rowsUpdatedAt": 1442611167,
+            "rowsUpdatedBy": "qp74-qyt9",
+            "tableId": 4354895,
+            "totalTimesRated": 0,
+            "viewCount": 0,
+            "viewType": "tabular",
+            "columns": [
+                {
+                    "id": -1,
+                    "name": "sid",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":sid",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {}
+                },
+                {
+                    "id": -1,
+                    "name": "id",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":id",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {}
+                },
+                {
+                    "id": -1,
+                    "name": "position",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":position",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {}
+                },
+                {
+                    "id": -1,
+                    "name": "created_at",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":created_at",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {}
+                },
+                {
+                    "id": -1,
+                    "name": "created_meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":created_meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {}
+                },
+                {
+                    "id": -1,
+                    "name": "updated_at",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":updated_at",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {}
+                },
+                {
+                    "id": -1,
+                    "name": "updated_meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":updated_meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {}
+                },
+                {
+                    "id": -1,
+                    "name": "meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {}
+                },
+                {
+                    "id": 222152953,
+                    "name": "Title",
+                    "dataTypeName": "text",
+                    "fieldName": "title",
+                    "position": 1,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671601,
+                    "width": 160,
+                    "format": {
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": 222152954,
+                    "name": "Release Year",
+                    "dataTypeName": "number",
+                    "fieldName": "release_year",
+                    "position": 2,
+                    "renderTypeName": "number",
+                    "tableColumnId": 1671602,
+                    "width": 244,
+                    "format": {
+                        "precisionStyle": "standard",
+                        "noCommas": "true",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 222152955,
+                    "name": "Locations",
+                    "dataTypeName": "text",
+                    "fieldName": "locations",
+                    "position": 3,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671603,
+                    "width": 208,
+                    "format": {}
+                },
+                {
+                    "id": 222152957,
+                    "name": "Fun Facts",
+                    "dataTypeName": "text",
+                    "fieldName": "fun_facts",
+                    "position": 4,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671604,
+                    "width": 208,
+                    "format": {}
+                },
+                {
+                    "id": 222152958,
+                    "name": "Production Company",
+                    "dataTypeName": "text",
+                    "fieldName": "production_company",
+                    "position": 5,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671605,
+                    "width": 316,
+                    "format": {}
+                },
+                {
+                    "id": 222152960,
+                    "name": "Distributor",
+                    "dataTypeName": "text",
+                    "fieldName": "distributor",
+                    "position": 6,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671606,
+                    "width": 232,
+                    "format": {}
+                },
+                {
+                    "id": 222152961,
+                    "name": "Director",
+                    "dataTypeName": "text",
+                    "fieldName": "director",
+                    "position": 7,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671607,
+                    "width": 196,
+                    "format": {}
+                },
+                {
+                    "id": 222152963,
+                    "name": "Writer",
+                    "dataTypeName": "text",
+                    "fieldName": "writer",
+                    "position": 8,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671608,
+                    "width": 172,
+                    "format": {}
+                },
+                {
+                    "id": 222152964,
+                    "name": "Actor 1",
+                    "dataTypeName": "text",
+                    "fieldName": "actor_1",
+                    "position": 9,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671609,
+                    "width": 184,
+                    "format": {}
+                },
+                {
+                    "id": 222152965,
+                    "name": "Actor 2",
+                    "dataTypeName": "text",
+                    "fieldName": "actor_2",
+                    "position": 10,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671610,
+                    "width": 184,
+                    "format": {}
+                },
+                {
+                    "id": 222152967,
+                    "name": "Actor 3",
+                    "dataTypeName": "text",
+                    "fieldName": "actor_3",
+                    "position": 11,
+                    "renderTypeName": "text",
+                    "tableColumnId": 1671611,
+                    "width": 184,
+                    "format": {}
+                },
+                {
+                    "id": 222153052,
+                    "name": "Smile Again, Jenny Lee",
+                    "dataTypeName": "number",
+                    "fieldName": "smile_again_jenny_lee",
+                    "position": 12,
+                    "renderTypeName": "number",
+                    "tableColumnId": 31372273,
+                    "width": 100,
+                    "format": {}
+                }
+            ],
+            "grants": [
+                {
+                    "inherited": true,
+                    "type": "viewer",
+                    "flags": [
+                        "public"
+                    ]
+                }
+            ],
+            "license": {
+                "name": "Open Data Commons Public Domain Dedication and License",
+                "termsLink": "http://opendatacommons.org/licenses/pddl/1.0/"
+            },
+            "metadata": {
+                "custom_fields": {
+                    "Detailed Descriptive": {
+                        "Data notes": "Contains general location (Point of Interest) but not standard addresses",
+                        "Geographic unit": "Other"
+                    },
+                    "Publishing Details": {
+                        "Data change frequency": "Weekly",
+                        "Publishing frequency": "Annually"
+                    },
+                    "Department Metrics": {
+                        "Publishing Department": "Film Commission"
+                    }
+                },
+                "renderTypeConfig": {
+                    "visible": {
+                        "table": true
+                    }
+                },
+                "rowLabel": "Row",
+                "availableDisplayTypes": [
+                    "table",
+                    "fatrow",
+                    "page"
+                ],
+                "jsonQuery": {
+                    "order": [
+                        {
+                            "ascending": true,
+                            "columnFieldName": "title"
+                        }
+                    ],
+                    "where": {
+                        "value": "dirty harry",
+                        "operator": "EQUALS",
+                        "columnFieldName": "title",
+                        "metadata": {
+                            "freeform": true,
+                            "unifiedVersion": 2,
+                            "tableColumnId": {
+                                "251717": 1671601
+                            },
+                            "operator": "EQUALS"
+                        }
+                    }
+                },
+                "rdfSubject": "0"
+            },
+            "query": {
+                "filterCondition": {
+                    "type": "operator",
+                    "value": "AND",
+                    "children": [
+                        {
+                            "type": "operator",
+                            "value": "OR",
+                            "children": [
+                                {
+                                    "type": "operator",
+                                    "value": "EQUALS",
+                                    "children": [
+                                        {
+                                            "columnId": 222152953,
+                                            "type": "column"
+                                        },
+                                        {
+                                            "type": "literal",
+                                            "value": "dirty harry"
+                                        }
+                                    ],
+                                    "metadata": {
+                                        "freeform": true
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "tableColumnId": {
+                                    "251717": 1671601
+                                },
+                                "operator": "EQUALS"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "unifiedVersion": 2
+                    }
+                },
+                "orderBys": [
+                    {
+                        "ascending": true,
+                        "expression": {
+                            "columnId": 222152953,
+                            "type": "column"
+                        }
+                    }
+                ]
+            },
+            "rights": [
+                "read"
+            ],
+            "sortBys": [
+                {
+                    "id": 0,
+                    "viewColumnId": 222152953,
+                    "flags": [
+                        "asc"
+                    ]
+                }
+            ],
+            "tableAuthor": {
+                "id": "qp74-qyt9",
+                "displayName": "Susannah Robbins",
+                "roleName": "editor",
+                "screenName": "Susannah Robbins",
+                "rights": [
+                    "create_datasets",
+                    "view_domain",
+                    "short_session",
+                    "view_goals",
+                    "view_dashboards"
+                ]
+            },
+            "tags": [
+                "film",
+                "locations",
+                "movies",
+                "actors",
+                "directors"
+            ],
+            "viewFilters": {
+                "type": "operator",
+                "value": "AND",
+                "children": [
+                    {
+                        "type": "operator",
+                        "value": "OR",
+                        "children": [
+                            {
+                                "type": "operator",
+                                "value": "EQUALS",
+                                "children": [
+                                    {
+                                        "columnId": 222152953,
+                                        "type": "column"
+                                    },
+                                    {
+                                        "type": "literal",
+                                        "value": "dirty harry"
+                                    }
+                                ],
+                                "metadata": {
+                                    "freeform": true
+                                }
+                            }
+                        ],
+                        "metadata": {
+                            "tableColumnId": {
+                                "251717": 1671601
+                            },
+                            "operator": "EQUALS"
+                        }
+                    }
+                ],
+                "metadata": {
+                    "unifiedVersion": 2
+                }
+            },
+            "flags": [
+                "unsaved"
+            ]
+        }
+    },
+    "data": [
+        [
+            258,
+            "A69DC2F9-F7E6-440D-ABC4-4E1FA7DC98E3",
+            258,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Marina Green, Marina District",
+            "Before the 1906 earthquake, the land on which Marina Green sits was a tidal marsh, and rubble from the earthquake was dumped on the site. However, the site was filled in to provide land for the 1915 Panama-Pacific Exhibition. ",
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            259,
+            "60780EF8-924D-433E-811A-3E0B0782D943",
+            259,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Washington Square, North Beach",
+            null,
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            null,
+            null
+        ],
+        [
+            260,
+            "DB9EFAA2-8282-4D4C-9A6D-E7DDDFB10974",
+            260,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "The Embarcadero",
+            null,
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Cathy Moriarty",
+            null
+        ],
+        [
+            261,
+            "4625FC66-4FD4-4EDE-B6B4-A57D4C0E69E7",
+            261,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "St. Peter & Paul's Church (666 Filbert Street, Washington Square)",
+            "Though Marilyn Monroe and Joe DiMaggio were not alllowed to be married at the Church (DiMaggio had married his first wife at the Church but was divorced), the couple returned to the steps of the Church for photos, following their City Hall nuptuals.",
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Cathy Moriarty",
+            null
+        ],
+        [
+            262,
+            "BECEEBDA-F7FE-46F1-AC42-502E27B74118",
+            262,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "San Francisco Drydock (20th and Illinois Streets)",
+            null,
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            null,
+            null
+        ],
+        [
+            263,
+            "A3F83F68-54B4-4562-AC8E-775B738F095F",
+            263,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "In 1847 the first public school in California was erected on what would become Portsmouth Square.",
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            264,
+            "DF4209CC-7382-4C5A-A31A-6B25BD13A6C0",
+            264,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Mt. Davidson Cross, Mt. Davidson",
+            "The cross sits at the highest point in San Francisco (938 feet). This version of the cross was erected in 1934.Though in Dirty Harry the cross is lit at night, the City stopped this practice in 1990.",
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            265,
+            "74467525-2B3D-4C36-844F-D6A08D709BDE",
+            265,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Mission Delores Park (Mission District)",
+            "The two land plots that comprise the Park were used as a Jewish cemetary until 1894 when San Francisco prohibited all burials within city limits.The graves were moved to Colma, CA.",
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            266,
+            "501CC3F7-72F0-4E0A-AA1A-0D7EE2D5A04C",
+            266,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Kezar Stadium, Golden Gate Park",
+            "The stadium was demolished and completely rebuilt after sustaining damages in the 1898 Loma Prieta earthquake.",
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            267,
+            "797E3A03-34CD-48BD-BE8B-7F494FBC8719",
+            267,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Holiday Inn Select Downtown Hotel (750 Kearney Street)",
+            null,
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            268,
+            "BD79265F-94F2-49E7-8A00-C742A2177396",
+            268,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Hall of Justice (850 Bryant Street)",
+            null,
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            269,
+            "8C4C7835-1CF4-485C-9A9A-A7DAFAA6F454",
+            269,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Forest Hill Station- MUNI",
+            null,
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            270,
+            "3B7636D8-62BB-4C11-8BDA-A417A83CF57D",
+            270,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Dante Building (1606 Stockton Street at Union)",
+            null,
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            "Woody Harrelson",
+            null
+        ],
+        [
+            271,
+            "68F9C8A8-F171-4C4B-BF7C-4194B52D6562",
+            271,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "California Hall (625 Polk Street, Van Ness/Civic Center)",
+            null,
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            null,
+            null
+        ],
+        [
+            272,
+            "684C6548-FCD8-420B-8C4A-F2B8BE8A23E8",
+            272,
+            1442611149,
+            "881420",
+            1442611149,
+            "881420",
+            null,
+            "Dirty Harry",
+            "1971",
+            "Bank of America Building (555 California Street)",
+            "The Bank of America Building was the tallest building on the West Coast from 1969-1972, when it was surpassed by the TransAmerica Pyramid. Today, the Bank of America building is the 5th tallest building on the West Coast.",
+            "The Malpaso Company",
+            "Warner Brothers",
+            "Don Siegel",
+            "Harry Julian Fink",
+            "Clint Eastwood",
+            null,
+            null,
+            null
+        ]
+    ]
+}

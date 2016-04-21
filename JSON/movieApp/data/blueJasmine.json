@@ -1,0 +1,385 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "Film Locations in San Francisco",
+      "attribution" : "San Francisco Film Commission",
+      "attributionLink" : "http://www.filmsf.org/",
+      "averageRating" : 0,
+      "category" : "Culture and Recreation",
+      "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "indexUpdatedAt" : 1442618399,
+      "licenseId" : "PDDL",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "publicationAppendEnabled" : false,
+      "publicationStage" : "unpublished",
+      "rowsUpdatedAt" : 1442611167,
+      "rowsUpdatedBy" : "qp74-qyt9",
+      "tableId" : 4354895,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 222152953,
+        "name" : "Title",
+        "dataTypeName" : "text",
+        "fieldName" : "title",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671601,
+        "width" : 160,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 222152954,
+        "name" : "Release Year",
+        "dataTypeName" : "number",
+        "fieldName" : "release_year",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1671602,
+        "width" : 244,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 222152955,
+        "name" : "Locations",
+        "dataTypeName" : "text",
+        "fieldName" : "locations",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671603,
+        "width" : 208,
+        "format" : { }
+      }, {
+        "id" : 222152957,
+        "name" : "Fun Facts",
+        "dataTypeName" : "text",
+        "fieldName" : "fun_facts",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671604,
+        "width" : 208,
+        "format" : { }
+      }, {
+        "id" : 222152958,
+        "name" : "Production Company",
+        "dataTypeName" : "text",
+        "fieldName" : "production_company",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671605,
+        "width" : 316,
+        "format" : { }
+      }, {
+        "id" : 222152960,
+        "name" : "Distributor",
+        "dataTypeName" : "text",
+        "fieldName" : "distributor",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671606,
+        "width" : 232,
+        "format" : { }
+      }, {
+        "id" : 222152961,
+        "name" : "Director",
+        "dataTypeName" : "text",
+        "fieldName" : "director",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671607,
+        "width" : 196,
+        "format" : { }
+      }, {
+        "id" : 222152963,
+        "name" : "Writer",
+        "dataTypeName" : "text",
+        "fieldName" : "writer",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671608,
+        "width" : 172,
+        "format" : { }
+      }, {
+        "id" : 222152964,
+        "name" : "Actor 1",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_1",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671609,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222152965,
+        "name" : "Actor 2",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_2",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671610,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222152967,
+        "name" : "Actor 3",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_3",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671611,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222153052,
+        "name" : "Smile Again, Jenny Lee",
+        "dataTypeName" : "number",
+        "fieldName" : "smile_again_jenny_lee",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31372273,
+        "width" : 100,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+            "Geographic unit" : "Other"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Weekly",
+            "Publishing frequency" : "Annually"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Film Commission"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "title"
+          } ],
+          "where" : {
+            "value" : "Blue Jasmine",
+            "operator" : "EQUALS",
+            "columnFieldName" : "title",
+            "metadata" : {
+              "freeform" : true,
+              "unifiedVersion" : 2,
+              "tableColumnId" : {
+                "251717" : 1671601
+              },
+              "operator" : "EQUALS"
+            }
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 222152953,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Blue Jasmine"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "251717" : 1671601
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 222152953,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 222152953,
+        "flags" : [ "asc" ]
+      } ],
+      "tableAuthor" : {
+        "id" : "qp74-qyt9",
+        "displayName" : "Susannah Robbins",
+        "roleName" : "editor",
+        "screenName" : "Susannah Robbins",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 222152953,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Blue Jasmine"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "251717" : 1671601
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      },
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 132, "BE2374E3-EEA8-4251-971F-7A6DEA8669D7", 132, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "5546 Geary Ave", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 129, "2079E75B-70C7-4C4D-B48C-98D1262BD888", 129, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Jones & Pacific", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 130, "40343923-9787-4391-BFD1-C4E5E5E616AA", 130, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Pacific & Divisadero", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 131, "6DA76FCD-E3F4-4D9B-86AA-BDC364A9DA8E", 131, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Lombard & Hyde", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 133, "F7C6709A-395A-4A82-B8A1-375026FCBB7F", 133, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "2898 Broadway", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 134, "964E3F01-5C70-4DD0-8468-EB724144BDDF", 134, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Motel Capri", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 135, "DB706445-64A8-4CEA-BA81-388AC20CEF26", 135, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Marina Green", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 136, "A9A70A24-EC79-4FDA-B991-A41D30AC1742", 136, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Ocean Beach at Lincoln", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 137, "60790899-643D-4B0C-8988-E8631A2903B2", 137, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Heald College", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 138, "73B36742-3C30-44CC-B241-2953D275E9E0", 138, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Marina Blvd from Leguna to Baker", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 139, "5DC8502C-B945-41E7-8FDC-62B3A2E08C94", 139, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "330 Santa Clara Ave.", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 140, "38A957E7-8EAA-495A-85A0-E60926592B45", 140, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "200 Post St. ", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 141, "5107933E-04FC-495D-A310-2E022496BCB1", 141, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "2179 48th Ave", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 142, "42D37F79-EA8A-4BAD-AC17-4965F7FB1036", 142, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "The Ramp Restaurant", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 143, "9E46E013-1439-4FAD-A658-EDD66397AAD0", 143, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "303-305 S. Van Ness", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 144, "606CE7E2-B954-46B6-A9A0-CE2AAA85321A", 144, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "3563 20th St.", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 145, "FD28C8B1-5D96-43A9-A993-0B25F3438ACF", 145, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Taylor & Green St.", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 146, "96F6C661-A329-479E-9939-80F966964A6B", 146, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Grant & Washington St.", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 147, "D3EB9534-88F0-42B2-911F-E8EF6DB9D9AF", 147, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "2934 24th St.", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 148, "DD58F6D2-0759-49F5-8F28-EA5C7FB98987", 148, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "1138 Alabama St", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 149, "4582E938-1C7A-431F-96F1-EADE8DCBACC3", 149, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "South Park", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 150, "774BB051-38A3-49B6-9B4F-9DC9C2F05023", 150, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "2915 16th St.", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 151, "256ABA47-601E-42B6-87D7-2DF42BDD7B2B", 151, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Trolly Car from Market and 11th", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 152, "3293C9B6-1357-4F6F-87F2-34B0F4EA8BAF", 152, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Real Guitars", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 153, "C675A484-8416-41CD-8F3F-A607E9B53D79", 153, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "Aub Zam Zam Bar", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 154, "FBA8B14F-52D6-4A83-9020-55544726672C", 154, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "790 Ulloa ", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 155, "3C0F448C-FB1C-4F19-89A6-0BA17F1F217B", 155, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "SFO International Airport Terminal 3", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+, [ 156, "5971144B-4E61-4C03-9F89-CBBCCD8ED763", 156, 1442611149, "881420", 1442611149, "881420", null, "Blue Jasmine", "2013", "2178 Palou Ave.", null, "Perdido Productions", "Sony Pictures Classics", "Woody Allen", "Woody Allen", "Cate Blanchett", "Alec Baldwin", "Peter Sarsgaard", null ]
+ ]
+}

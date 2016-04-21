@@ -1,0 +1,373 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "Film Locations in San Francisco",
+      "attribution" : "San Francisco Film Commission",
+      "attributionLink" : "http://www.filmsf.org/",
+      "averageRating" : 0,
+      "category" : "Culture and Recreation",
+      "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "indexUpdatedAt" : 1442618399,
+      "licenseId" : "PDDL",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "publicationAppendEnabled" : false,
+      "publicationStage" : "unpublished",
+      "rowsUpdatedAt" : 1442611167,
+      "rowsUpdatedBy" : "qp74-qyt9",
+      "tableId" : 4354895,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 222152953,
+        "name" : "Title",
+        "dataTypeName" : "text",
+        "fieldName" : "title",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671601,
+        "width" : 160,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 222152954,
+        "name" : "Release Year",
+        "dataTypeName" : "number",
+        "fieldName" : "release_year",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1671602,
+        "width" : 244,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 222152955,
+        "name" : "Locations",
+        "dataTypeName" : "text",
+        "fieldName" : "locations",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671603,
+        "width" : 208,
+        "format" : { }
+      }, {
+        "id" : 222152957,
+        "name" : "Fun Facts",
+        "dataTypeName" : "text",
+        "fieldName" : "fun_facts",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671604,
+        "width" : 208,
+        "format" : { }
+      }, {
+        "id" : 222152958,
+        "name" : "Production Company",
+        "dataTypeName" : "text",
+        "fieldName" : "production_company",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671605,
+        "width" : 316,
+        "format" : { }
+      }, {
+        "id" : 222152960,
+        "name" : "Distributor",
+        "dataTypeName" : "text",
+        "fieldName" : "distributor",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671606,
+        "width" : 232,
+        "format" : { }
+      }, {
+        "id" : 222152961,
+        "name" : "Director",
+        "dataTypeName" : "text",
+        "fieldName" : "director",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671607,
+        "width" : 196,
+        "format" : { }
+      }, {
+        "id" : 222152963,
+        "name" : "Writer",
+        "dataTypeName" : "text",
+        "fieldName" : "writer",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671608,
+        "width" : 172,
+        "format" : { }
+      }, {
+        "id" : 222152964,
+        "name" : "Actor 1",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_1",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671609,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222152965,
+        "name" : "Actor 2",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_2",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671610,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222152967,
+        "name" : "Actor 3",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_3",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671611,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 222153052,
+        "name" : "Smile Again, Jenny Lee",
+        "dataTypeName" : "number",
+        "fieldName" : "smile_again_jenny_lee",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31372273,
+        "width" : 100,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+            "Geographic unit" : "Other"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Weekly",
+            "Publishing frequency" : "Annually"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Film Commission"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "title"
+          } ],
+          "where" : {
+            "value" : "Godzilla",
+            "operator" : "EQUALS",
+            "columnFieldName" : "title",
+            "metadata" : {
+              "freeform" : true,
+              "unifiedVersion" : 2,
+              "tableColumnId" : {
+                "251717" : 1671601
+              },
+              "operator" : "EQUALS"
+            }
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 222152953,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Godzilla"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "251717" : 1671601
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 222152953,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 222152953,
+        "flags" : [ "asc" ]
+      } ],
+      "tableAuthor" : {
+        "id" : "qp74-qyt9",
+        "displayName" : "Susannah Robbins",
+        "roleName" : "editor",
+        "screenName" : "Susannah Robbins",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 222152953,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Godzilla"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "251717" : 1671601
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      },
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 392, "3FF7B839-7F32-48C4-B229-224C606B0E41", 392, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Kearney & Pine St.", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 393, "453D0B49-A0BB-426E-B50F-2F22A4C8C53C", 393, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "California & Davis St", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 394, "AFC4EF0D-7A63-438E-9F37-BBBE60B753E1", 394, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Pine St. & Davis St", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 395, "A193FDC3-AB15-462F-BFD4-905B7FB55220", 395, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Sacramento & Front St.", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 396, "AA507B7A-56CC-4CA5-B08A-99EB6A673930", 396, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Broadway & Sansome", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 397, "0945B306-00F3-4FE5-9B0F-F5F65E61CB09", 397, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Broadway & Columbus", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 398, "16EF7A6F-A7F0-4C7F-90EC-BEC08B3B2C10", 398, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Post & Jones St.", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 399, "C2564116-C2CD-484E-B5FE-B442F402EACB", 399, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Stockton & Clay St", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 400, "85479C61-0A92-4C76-8022-E2FFDD0E87C0", 400, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Bush & Kearny", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 401, "29736E04-8FDB-4865-BC96-4FB2EA27D74F", 401, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Mission & Fremont St", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 402, "0CE14553-630A-4A01-9FD5-04B6FA493FDA", 402, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Eddy & Taylor St.", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 403, "0D7D971A-6450-4A35-8FC0-8D5EC568FB12", 403, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Pier 7 (The Embarcadero)", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 404, "5077F5CE-3601-4F49-837E-8E6D9C6F33E3", 404, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Pier 1", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 405, "6CD7255C-4795-4FA0-9457-6A22E135D1AF", 405, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Embarcadero & Washington", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 406, "EB5DF46E-733F-4FEA-AC16-B2103E494F2A", 406, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Mission & Beal", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+, [ 407, "A139144E-1814-4299-A076-DFE80DDB1F78", 407, 1442611149, "881420", 1442611149, "881420", null, "Godzilla", "2014", "Potrero &San Bruno", null, "Nautiflus Productions, LLC", "Warner Bros. Pictures", "Gareth Edwards", "Max Borenstein", "Aaron Taylor-Johnson", "Elizabeth Olsen", "Bryan Cranston", null ]
+ ]
+}

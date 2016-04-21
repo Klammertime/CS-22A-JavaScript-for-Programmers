@@ -4,6 +4,12 @@ I am enrolled part-time at Foothill College for a Computer Science Associates De
 
 In this course, we focused on the implemented features in **ECMAScript 6** and on **ECMAScript 5** and learned the differences where applicable. Since we were programming using ECMAScript 6, she had us use the Firebug console, since its already supports it.
 
+Some of the projects I created from this course:
+* **Memory**: [http://klammertime.github.io/Memory/](http://klammertime.github.io/Memory/)
+* **Snowed In** - Guessing Game: [http://klammertime.github.io/Snowed-In/](http://klammertime.github.io/Snowed-In/)
+* **Node/AJAX Demo**: [http://klammertime.github.io/businessReviewJSAJAX/](http://klammertime.github.io/businessReviewJSAJAX/)
+* And files included in this repo.
+
 ###Some of the topics covered include:
 
 * **JavaScript Basics & Best Practices** 

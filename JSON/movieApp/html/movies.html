@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Movie Scene Map</title>
+    <link rel="stylesheet" type="text/css" href="main.css" media="all">
+    <script src="../scripts/jquery-1.11.3.js"></script>
+    <script src="../scripts/mapHelper.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+</head>
+
+<body>
+    <section class="top-banner">
+        <h1>Movie Scene Finder</h1>
+        <div id="movies">
+            <input id="dirtyHarry" type="button" value="Dirty Harry">
+            <input id="sense8" type="button" value="Sense8">
+            <input id="godzilla" type="button" value="Godzilla">
+            <input id="blueJasmine" type="button" value="Blue Jasmine">
+            <input id="haroldAndMaude" type="button" value="Harold and Maude">
+        </div>
+    </section>
+    <!-- you just changed the id from map to mapDiv -->
+    <div id="mapDiv"></div>
+    <section class="container">
+        <h2>Scene Locations</h2>
+        <h4>Pick a movie above to see a list of scenes taped in San Francisco.</h4>
+        <div id="movieInfo"></div>
+    </section>
+    <script defer src="../scripts/app.js"></script>
+</body>
+
+</html>

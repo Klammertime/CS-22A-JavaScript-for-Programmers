@@ -1,0 +1,19 @@
+#myCanvas {
+    border: 1px solid #0b3f57;
+}
+
+body {
+    font: 300 16px/22px 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #627186, #fbcaa1);
+    background: -o-linear-gradient(left, #627186, #fbcaa1);
+    background: linear-gradient(to right, #627186, #fbcaa1);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+    margin-bottom: 40px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
