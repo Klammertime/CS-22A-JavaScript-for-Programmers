@@ -1,6 +1,6 @@
 #CS 22A - JavaScript for Programmers
 
-I am enrolled part-time at Foothill College for a Computer Science Associates Degree. I completed [JavaScript for Programmers](http://www.foothill.edu/schedule/outlines.php?act=1&rec_id=5825&Quarter=2016S) (5 units) in Fall 2015 (September to December). The class assumed you had a solid programming background and was not intended for firsttime programmers. This online course provided two weekly lectures, a forum moderated by professor Rula Khayrallah along with weekly coding assignments which she both graded and reviewed.
+I completed [JavaScript for Programmers](http://www.foothill.edu/schedule/outlines.php?act=1&rec_id=5825&Quarter=2016S) (5 units) at Foothill College in Fall '15. The class assumed you had "a solid programming background and was not intended for firsttime programmers". This online course provided two weekly lectures, a forum moderated by professor Rula Khayrallah along with weekly coding assignments which she both graded and reviewed.
 
 In this course, we focused on the implemented features in **ECMAScript 6** and on **ECMAScript 5** and learned the differences where applicable. Since we were programming using ECMAScript 6, she had us use the Firebug console, since its already supports it.
 
