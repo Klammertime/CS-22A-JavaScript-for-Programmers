@@ -80,7 +80,7 @@ Some of the projects I created from this course:
   * 3-tier architecture, the web stack and scalability.
 
 * **Testing**
-  * Test Driven Development (TDD): we used Selenium, a browser automation tool commonly used for automating the testing of web applications. 
+  * We briefly covered TDD and the different types of testing. Then we used Selenium, a browser automation tool commonly used for automating the testing of web applications. 
 
 * **Mobile Platforms**
 
