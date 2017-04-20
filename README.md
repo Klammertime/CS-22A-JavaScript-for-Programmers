@@ -1,4 +1,4 @@
-#CS 22A - JavaScript for Programmers
+# CS 22A - JavaScript for Programmers
 
 I completed [JavaScript for Programmers](http://www.foothill.edu/schedule/outlines.php?act=1&rec_id=5825&Quarter=2016S) (5 units) at Foothill College in Fall '15. The class assumed you had "a solid programming background and was not intended for firsttime programmers". This online course provided two weekly lectures, a forum moderated by professor Rula Khayrallah along with weekly coding assignments which she both graded and reviewed.
 
@@ -10,7 +10,7 @@ Some of the projects I created from this course:
 * **Node/AJAX Demo**: [http://klammertime.github.io/businessReviewJSAJAX/](http://klammertime.github.io/businessReviewJSAJAX/)
 * And files included in this repo.
 
-###Some of the topics covered include:
+### Some of the topics covered include:
 
 * **JavaScript Basics & Best Practices** 
   * Primitives types vs objects and the introduction of primitive type **symbol** in ECMAScript 6. Operators, numbers including **Number.isNaN (ES6)**, the math library, falsy and truthy values, logical operators, strings and string methods (**new ES6 string methods such as includes, endsWith, startWith, and repeat**), character access, concatenation, and explicit type conversion. Best practices such as using strict mode, the strict equality operator, declaring variables, and using semicolons. 
